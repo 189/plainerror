@@ -1,0 +1,20 @@
+{
+  "name": "plainerror",
+  "description": "",
+  "main": "lib/index.js",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc -w"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "author": "kv.wang87@gmail.com",
+  "dependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "typings": "lib/index.d.ts"
+}
