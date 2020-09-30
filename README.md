@@ -13,7 +13,7 @@ yarn add plainerror
 
 ```js
 # js
-import plainerror from "plainerror;
+import plainerror from "plainerror";
 
 function asyncCall(args) {
     return new Promise((resolve, reject) => {
