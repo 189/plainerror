@@ -1,7 +1,7 @@
 # plainerror
 Utility used to catch unhandled exceptions for async process. Easy to got error from async promise flow, no `catch` in your code.
 
-Support nodejs and browser.
+Both work in nodejs and browser.
 
 #### install
 
