@@ -10,11 +10,20 @@
     "lib",
     "src"
   ],
+  "keywords": [
+    "promise",
+    "async"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/189/plainerror"
+  },
   "license": "MIT",
-  "author": "kv.wang87@gmail.com",
+  "author": "189<kv.wang87@gmail.com>",
   "dependencies": {
     "tslint": "^6.0.0",
     "typescript": "^3.8.2"
   },
+  "homepage": "https://github.com/189/plainerror",
   "typings": "lib/index.d.ts"
 }
