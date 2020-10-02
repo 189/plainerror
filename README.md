@@ -12,7 +12,6 @@ yarn add plainerror
 #### usage
 
 ```js
-# nodejs
 const plainError = require("plainerror").default;
 // or 
 // import plainError from "plainerror"; 
