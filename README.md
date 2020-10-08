@@ -8,11 +8,12 @@ Both work in nodejs and browser.
 ```
 yarn add plainerror
 ```
-
+```
+plainError(async_function_name: string, context: any)
+```
 #### usage
 
-```js
-# nodejs
+```
 const plainError = require("plainerror").default;
 // or 
 // import plainError from "plainerror"; 
@@ -27,8 +28,9 @@ function asyncCall(args) {
     })
 }
 
+// With plainError you can get plain error from first array item, without wrapping `try catch` or chaining `.catch` 
 (async function () {
-    const [err, response] = await plainError(asyncCall)({ name: "ff" });
+    const [err, response] = await plainError(asyncCall, null)({ name: "lucy" });
     if (err) {
         // do something
         console.log(err);
@@ -38,3 +40,4 @@ function asyncCall(args) {
 })();
 
 ```
+
