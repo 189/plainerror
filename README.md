@@ -13,11 +13,7 @@ plainError(async_function_name: string, context: any)
 ```
 #### usage
 
-```
 const plainError = require("plainerror").default;
-// or 
-// import plainError from "plainerror"; 
-
 function asyncCall(args) {
     return new Promise((resolve, reject) => {
         const random = Math.random();
@@ -40,4 +36,3 @@ function asyncCall(args) {
 })();
 
 ```
-
