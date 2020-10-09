@@ -12,6 +12,8 @@
   ],
   "keywords": [
     "promise",
+    "promise error",
+    "catch",
     "async"
   ],
   "bugs": {
