@@ -2,7 +2,7 @@
   "name": "plainerror",
   "description": "Easy to got error from async promise flow",
   "main": "lib/index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "tsc -w"
   },
