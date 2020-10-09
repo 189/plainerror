@@ -1,4 +1,5 @@
 # plainerror
+
 Utility used to catch unhandled exceptions for async process. Easy to got error from async promise flow, no `catch` in your code.
 
 Both work in nodejs and browser.
@@ -6,17 +7,18 @@ Both work in nodejs and browser.
 #### install
 
 ```
-yarn add plainerror  
+yarn add plainerror
+```
+
+#### Usage
+
+```
+plainError(async_function_name: string, context: any)(your_params)
+
 ```
 
 ```
-plainError(async_function_name: string, context: any)  
-
-```
-#### usage
-
-```  
-const plainError = require("plainerror").default;  
+const plainError = require("plainerror").default;
 function asyncCall(args) {
     return new Promise((resolve, reject) => {
         const random = Math.random();
@@ -27,7 +29,7 @@ function asyncCall(args) {
     })
 }
 
-// With plainError you can get plain error from first array item, without wrapping `try catch` or chaining `.catch`   
+// With plainError you can get plain error from first array item, without wrapping `try catch` or chaining `.catch`
 
 (async function () {
     const [err, response] = await plainError(asyncCall, null)({ name: "lucy" });
